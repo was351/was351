@@ -8,14 +8,14 @@ Backend-focused software engineer interested in **distributed systems, scalable 
 
 Currently building systems involving **distributed workers, event-driven backends, and real-time applications**.
 
-📍 Vancouver, Canada  
-🔗 LinkedIn: https://www.linkedin.com/in/wasifsarker/
+ Vancouver, Canada  
+ LinkedIn: https://www.linkedin.com/in/wasifsarker/
 
 ---
 
-# 🚀 Selected Projects
+## My Projects
 
-### ♟️ Distributed Chess Analysis Platform
+###  Distributed Chess Analysis Platform
 
 Real-time chess platform with **Redis Pub/Sub game streaming** and **distributed Stockfish analysis workers**.
 
@@ -33,7 +33,7 @@ Redis Queue → Stockfish Worker Pool
 
 ---
 
-### 🧠 Exercise Detection ML System
+### Exercise Detection ML System
 
 Computer vision system that analyzes workout videos and provides **exercise classification and form feedback**.
 
@@ -42,7 +42,7 @@ Python • TensorFlow • MediaPipe • OpenCV • Flask
 
 ---
 
-### 🔎 Distributed Search Engine *(In Progress)*
+### Distributed Search Engine *(In Progress)*
 
 Search system with **crawler workers, indexing pipeline, and ranking service**.
 
@@ -57,7 +57,7 @@ Processing Pipeline → Search Index
 Search Index → Ranking Engine
 Ranking Engine → Search API
 ```
-## 🛠 Tech Stack
+## Tech Stack
 
 ### Languages
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
@@ -90,7 +90,7 @@ Ranking Engine → Search API
 
 ---
 
-# 📫 Connect
+## Connect
 
 GitHub  
 https://github.com/was351  
