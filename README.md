@@ -15,7 +15,7 @@ Currently building systems involving **distributed workers, event-driven backend
 ---
 
 # 🚀 Selected Projects
-Distributed Chess Analysis Platform
+♟️ Distributed Chess Analysis Platform
 
 Real-time chess platform with Redis Pub/Sub game streaming and distributed Stockfish analysis workers.
 
