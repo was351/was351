@@ -15,7 +15,8 @@ Currently building systems involving **distributed workers, event-driven backend
 ---
 
 # 🚀 Selected Projects
-♟️ Distributed Chess Analysis Platform
+
+### ♟️ Distributed Chess Analysis Platform
 
 Real-time chess platform with Redis Pub/Sub game streaming and distributed Stockfish analysis workers.
 
@@ -23,19 +24,24 @@ Tech
 Python • FastAPI • Redis • React Native • Stockfish
 
 Architecture
-Client → FastAPI API
-FastAPI → Redis Pub/Sub (game updates)
-FastAPI → Redis Queue (analysis jobs)
-Redis Queue → Stockfish Worker Pool
 
-🧠 Exercise Detection ML System
+Client
+   ↓
+FastAPI API
+   ↓
+Redis Pub/Sub → live game updates
+Redis Queue   → analysis jobs
+   ↓
+Stockfish Worker Pool
+
+### 🧠 Exercise Detection ML System
 
 Computer vision system that analyzes workout videos and provides exercise classification and form feedback.
 
 Tech
 Python • TensorFlow • MediaPipe • OpenCV • Flask
 
-🔎 Distributed Search Engine (In Progress)
+### 🔎 Distributed Search Engine (In Progress)
 
 Search system with crawler workers, indexing pipeline, and ranking service.
 
@@ -43,30 +49,36 @@ Tech
 Python • FastAPI • Redis • PostgreSQL
 
 Architecture
-Crawler Workers → Processing Pipeline
-Processing Pipeline → Search Index
-Search Index → Ranking Engine
-Ranking Engine → Search API
+
+Crawler Workers
+      ↓
+Processing Pipeline
+      ↓
+Search Index
+      ↓
+Ranking Engine
+      ↓
+Search API
+
 # 🛠 Tech Stack
 
-**Languages**  
-Python • JavaScript • C++
+### Languages
+Python • JavaScript • C++ • SQL • Bash
 
-**Backend**  
-FastAPI • Flask • Node.js
+### Backend
+FastAPI • Flask • Node.js • REST APIs • WebSockets
 
-**Infrastructure**  
-AWS • Redis • Docker • Supabase
+### Infrastructure
+AWS • Redis • Docker • Supabase • Linux
 
-**Machine Learning**  
-TensorFlow • MediaPipe • OpenCV
+### Distributed Systems
+Pub/Sub • Worker Pools • Task Queues • Event-Driven Architecture
 
----
+### Machine Learning
+TensorFlow • MediaPipe • OpenCV • NumPy • Pandas
 
-# 📊 GitHub Stats
-
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=was351&show_icons=true)
-
+### Tools
+Git • GitHub • Postman
 ---
 
 # ⚡ Currently Working On
