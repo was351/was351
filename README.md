@@ -78,7 +78,7 @@ Pub/Sub • Worker Pools • Task Queues • Event-Driven Architecture
 TensorFlow • MediaPipe • OpenCV • NumPy • Pandas
 
 ### Tools
-• Git • GitHub • Postman •Github Actions
+Git • GitHub • Postman •Github Actions
 
 ---
 
