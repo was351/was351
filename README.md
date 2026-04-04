@@ -87,13 +87,6 @@ Ranking Engine → Search API
 ![MediaPipe](https://img.shields.io/badge/MediaPipe-4285F4?style=for-the-badge)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
----
-
-# ⚡ Currently Working On
-
-• Distributed Stockfish worker system  
-• Redis Pub/Sub real-time infrastructure  
-• Distributed web crawler and search index  
 
 ---
 
