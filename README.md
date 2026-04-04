@@ -15,58 +15,38 @@ Currently building systems involving **distributed workers, event-driven backend
 ---
 
 # 🚀 Selected Projects
+Distributed Chess Analysis Platform
 
-## ♟️ Distributed Chess Analysis Platform
+Real-time chess platform with Redis Pub/Sub game streaming and distributed Stockfish analysis workers.
 
-Real-time chess platform with **Redis Pub/Sub game streaming** and **distributed Stockfish analysis workers**.
-
-**Tech:**  
+Tech
 Python • FastAPI • Redis • React Native • Stockfish
 
 Architecture
-Client
-│
-FastAPI API
-│
-Redis Pub/Sub → live game updates
-Redis Queue → analysis jobs
-│
-Stockfish Worker Pool
+Client → FastAPI API
+FastAPI → Redis Pub/Sub (game updates)
+FastAPI → Redis Queue (analysis jobs)
+Redis Queue → Stockfish Worker Pool
 
----
+🧠 Exercise Detection ML System
 
-## 🧠 Exercise Detection ML System
+Computer vision system that analyzes workout videos and provides exercise classification and form feedback.
 
-Computer vision system that analyzes workout videos and provides **exercise classification and form feedback**.
-
-**Tech**  
+Tech
 Python • TensorFlow • MediaPipe • OpenCV • Flask
 
----
+🔎 Distributed Search Engine (In Progress)
 
-## 🔎 Distributed Search Engine *(In Progress)*
+Search system with crawler workers, indexing pipeline, and ranking service.
 
-Search system with **crawler workers, indexing pipeline, and ranking service**.
-
-**Tech**  
+Tech
 Python • FastAPI • Redis • PostgreSQL
 
-**Architecture**
-
-
-Crawler Workers
-│
-Processing Pipeline
-│
-Search Index
-│
-Ranking Engine
-│
-Search API
-
-
----
-
+Architecture
+Crawler Workers → Processing Pipeline
+Processing Pipeline → Search Index
+Search Index → Ranking Engine
+Ranking Engine → Search API
 # 🛠 Tech Stack
 
 **Languages**  
