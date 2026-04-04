@@ -1,9 +1,8 @@
 # Wasif Sarker
 
-![Python](https://img.shields.io/badge/python-3.10-blue)
-![FastAPI](https://img.shields.io/badge/FastAPI-backend-green)
-![Redis](https://img.shields.io/badge/Redis-pubsub-red)
-![Machine Learning](https://img.shields.io/badge/ML-TensorFlow-orange)
+![Python](https://img.shields.io/badge/Python-blue)
+![FastAPI](https://img.shields.io/badge/FastAPI-green)
+![Redis](https://img.shields.io/badge/Redis-red)
 
 Backend-focused software engineer interested in **distributed systems, scalable infrastructure, and machine learning platforms**.
 
@@ -18,68 +17,76 @@ Currently building systems involving **distributed workers, event-driven backend
 
 ### ♟️ Distributed Chess Analysis Platform
 
-Real-time chess platform with Redis Pub/Sub game streaming and distributed Stockfish analysis workers.
+Real-time chess platform with **Redis Pub/Sub game streaming** and **distributed Stockfish analysis workers**.
 
-Tech
+**Tech**  
 Python • FastAPI • Redis • React Native • Stockfish
 
-Architecture
+**Architecture**
 
-Client
-   ↓
-FastAPI API
-   ↓
-Redis Pub/Sub → live game updates
-Redis Queue   → analysis jobs
-   ↓
-Stockfish Worker Pool
+```text
+Client → FastAPI API
+FastAPI API → Redis Pub/Sub (game updates)
+FastAPI API → Redis Queue (analysis jobs)
+Redis Queue → Stockfish Worker Pool
+```
+
+---
 
 ### 🧠 Exercise Detection ML System
 
-Computer vision system that analyzes workout videos and provides exercise classification and form feedback.
+Computer vision system that analyzes workout videos and provides **exercise classification and form feedback**.
 
-Tech
+**Tech**  
 Python • TensorFlow • MediaPipe • OpenCV • Flask
 
-### 🔎 Distributed Search Engine (In Progress)
+---
 
-Search system with crawler workers, indexing pipeline, and ranking service.
+### 🔎 Distributed Search Engine *(In Progress)*
 
-Tech
+Search system with **crawler workers, indexing pipeline, and ranking service**.
+
+**Tech**  
 Python • FastAPI • Redis • PostgreSQL
 
-Architecture
+**Architecture**
 
-Crawler Workers
-      ↓
-Processing Pipeline
-      ↓
-Search Index
-      ↓
-Ranking Engine
-      ↓
-Search API
-
-# 🛠 Tech Stack
+```text
+Crawler Workers → Processing Pipeline
+Processing Pipeline → Search Index
+Search Index → Ranking Engine
+Ranking Engine → Search API
+```
+## 🛠 Tech Stack
 
 ### Languages
-Python • JavaScript • C++ • SQL • Bash
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
 
 ### Backend
-FastAPI • Flask • Node.js • REST APIs • WebSockets
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
 
 ### Infrastructure
-AWS • Redis • Docker • Supabase • Linux
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-D82C20?style=for-the-badge&logo=redis&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=for-the-badge&logo=supabase&logoColor=white)
 
 ### Distributed Systems
-Pub/Sub • Worker Pools • Task Queues • Event-Driven Architecture
+![Pub/Sub](https://img.shields.io/badge/PubSub-Event%20Streaming-blue?style=for-the-badge)
+![Worker%20Pools](https://img.shields.io/badge/Worker%20Pools-Distributed%20Processing-orange?style=for-the-badge)
+![Task%20Queues](https://img.shields.io/badge/Task%20Queues-Async%20Processing-purple?style=for-the-badge)
 
 ### Machine Learning
-TensorFlow • MediaPipe • OpenCV • NumPy • Pandas
-
-### Tools
-Git • GitHub • Postman •Github Actions
-
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
+![OpenCV](https://img.shields.io/badge/OpenCV-27338e?style=for-the-badge&logo=opencv&logoColor=white)
+![MediaPipe](https://img.shields.io/badge/MediaPipe-4285F4?style=for-the-badge)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
 ---
 
 # ⚡ Currently Working On
