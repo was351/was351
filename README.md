@@ -41,22 +41,6 @@ Computer vision system that analyzes workout videos and provides **exercise clas
 Python • TensorFlow • MediaPipe • OpenCV • Flask
 
 ---
-
-### Distributed Search Engine *(In Progress)*
-
-Search system with **crawler workers, indexing pipeline, and ranking service**.
-
-**Tech**  
-Python • FastAPI • Redis • PostgreSQL
-
-**Architecture**
-
-```text
-Crawler Workers → Processing Pipeline
-Processing Pipeline → Search Index
-Search Index → Ranking Engine
-Ranking Engine → Search API
-```
 ## Tech Stack
 
 ### Languages
